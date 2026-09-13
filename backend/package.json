@@ -1,0 +1,19 @@
+{
+  "name": "ra16-diploma-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "flaky": "cross-env APP_DELAY=true APP_ERROR=true node src/index.mjs",
+    "test": "node --test",
+    "lint": "prettier --write src"
+  },
+  "author": "Damir Rysaev <freepad@ya.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "prettier": "^3.4.2"
+  }
+}
