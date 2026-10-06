@@ -291,6 +291,12 @@ section {
   color: #ff0000;
 }
 
+.catalog-categories .nav-link {
+  border: none;
+  background: none;
+  padding: 0.5rem 1rem;
+}
+
 h2, .h2 {
   margin-bottom: 1.5em;
   margin-top: 2em;
